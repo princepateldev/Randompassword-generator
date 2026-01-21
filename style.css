@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: "Courier New", Courier, monospace;
 }
+
 .password-container {
   background-color: pink;
   width: 500px;
@@ -27,6 +28,8 @@ body {
   background-color: transparent;
   outline: none;
   font-size: 24px;
+  width: 100%;
+  box-sizing: border-box;
   letter-spacing: 4px;
 }
 .input::placeholder {
@@ -71,6 +74,7 @@ body {
   justify-content: center;
   align-items: center;
   font: 20px;
+  transition: 0.4s;
 }
 .active.alert-container {
   right: -300px;
